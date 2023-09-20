@@ -1,0 +1,17 @@
+{
+  "name": "pvtl/wp-pvtl-recipes",
+  "description": "Adds a recipe custom post type, taxonomy and fields",
+  "homepage": "https://github.com/pvtl/wp-pvtl-recipes",
+  "license": "GPL3",
+  "authors": [
+    {
+      "name": "Erin Welch",
+      "email": "erin.w@pvtl.io",
+      "homepage": "https://www.pivotalagency.com.au/"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">7.4"
+  }
+}
