@@ -1,51 +1,4 @@
-# A Boilerplate Wordpress Plugin by Pivotal
-
-This is a boilerplate plugin which, by default:
-
-- Creates a new custom post type
-- Creates a new taxonomy
-- Adds the defaults for outputting and theming the front-end
-
-## Creating your own plugin
-
-### Step 1.
-
-_*The following should be run from your plugins directory_
-
-__1.1 Clone the repo__
-
-```bash
-git clone https://github.com/pvtl/wp-boilerplate-plugin.git <YOUR_NEW_PLUGIN_NAME>
-```
-
-__1.2 Remove .git - we're starting a new plugin after all__
-
-```bash
-cd <YOUR_NEW_PLUGIN_NAME> && rm -rf .git
-```
-
-__1.3 Automatically rename the plugin__
-
-```bash
-bash rename-plugin.sh
-```
-
-__1.4 Delete rename-plugin.sh - you don't need it anymore__
-
-```bash
-rm rename-plugin.sh
-```
-
-### Step 2.
-
-- Activate the plugin
-- Import the `<this_plugin_dir>/custom-fields/acf-export.json` into __ACF > Tools__
-- Modify the fields and __Export the JSON__ file + __Generate the PHP__ (replacing the existing file contents in `<this_plugin_dir>/custom-fields/`)
-- Update the front-end templates to include any of the fields you need
-
----
-
-# Recipe Wordpress Plugin by Pivotal
+# Recipe Wordpress Plugin by Pivotal Agency
 
 - A `recipe` custom post type
 - A `recipe-category` taxonomy
@@ -64,8 +17,7 @@ The default front-end templates make use of [Foundation](https://foundation.zurb
 _*The following should be run from your plugins directory_
 
 ```bash
-git clone https://github.com/pvtl/wp-recipes.git pvtl-recipes
-rm -rf pvtl-recipes/.git
+git clone https://github.com/pvtl/wp-pvtl-recipes.git
 ```
 
 - Activate the plugin
